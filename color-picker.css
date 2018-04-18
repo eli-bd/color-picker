@@ -1,0 +1,26 @@
+#palette {
+    width: 140px;
+    height: 140px;
+    border-radius: 3px;
+    background-color: #3C3E40;
+    flex-wrap: wrap;
+    padding: 6px;
+    display: none;
+    margin-top: 2px;
+    position: fixed;
+    left: 8px;
+    top: 35px;
+}
+.color-box {
+    height: 25px;
+    width: 25px;
+    border-radius: 3px;
+    margin: 2px;
+}
+#color-well {
+    height: 25px;
+    width: 25px;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: #3C3E40;
+}
