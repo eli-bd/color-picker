@@ -22,7 +22,6 @@ class ColorPicker {
     const padding = 6
     const numRows = Math.ceil(this.colors.length / 4)
     const width = (4 * colorBoxSize) + (4 * margin) + (2 * padding)
-    //console.log(`width=${width} colorBoxSize=${colorBoxSize} margin=${margin} padding=${padding}`)
     const height = (numRows * colorBoxSize) + (numRows * margin * 2) + (2 * padding)
     this.paletteElement.style.width = width + 'px'
     this.paletteElement.style.height = height + 'px'
@@ -33,7 +32,6 @@ class ColorPicker {
     this.paletteElement.style.left = `${rect.left}px`
     const top = rect.bottom + 2
     this.paletteElement.style.top = `${top}px`
-    console.log(rect)
   }
 
   renderColorBoxes() {
