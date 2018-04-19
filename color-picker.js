@@ -47,7 +47,8 @@ class ColorPicker {
   onSelectColor(id) {
     this.paletteElement.style.display = 'none'
     this.wellElement.style.backgroundColor = this.colors[id]
-    document.getElementById('sample-text').style.color = this.colors[id]
+    let event = new CustomEvent('colorPicked', { detail: this.colors[id] });
+    document.dispatchEvent(event)
   }
 
   toggleShowPalette() {
