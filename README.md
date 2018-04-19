@@ -1,4 +1,7 @@
 # color-picker
-A Color Picker that is based on colors you pre-define
+A Color Picker that is based on colors you pre-define 
 
-Colors are defined in a javascript array. 
+## How to use
+Add the color picker to your html: 
+```html
+```
